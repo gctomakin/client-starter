@@ -89,7 +89,7 @@ export default function ContactPage() {
           }}
           backgroundVariant="gradient"
           image={{
-            src: "/images/contact-hero.png",
+            src: "/images/hero-image.png",
             alt: "Professional consultation meeting",
           }}
         />

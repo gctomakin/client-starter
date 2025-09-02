@@ -91,7 +91,7 @@ export default function ServicesPage() {
           }}
           backgroundVariant="gradient"
           image={{
-            src: "/images/services-hero.png",
+            src: "/images/hero-image.png",
             alt: "Professional team providing business consulting services",
           }}
         />

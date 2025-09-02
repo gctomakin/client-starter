@@ -71,11 +71,6 @@ export function HeroSection({
                   fill
                   className="object-cover"
                   priority
-                  onError={(e) => {
-                    console.log("[v0] Image failed to load:", image.src)
-                    // Fallback to placeholder if image fails to load
-                    e.currentTarget.src = `/placeholder.svg?height=600&width=600&query=${encodeURIComponent(image.alt)}`
-                  }}
                 />
               </div>
             ) : (
